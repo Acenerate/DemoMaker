@@ -1,0 +1,134 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "When a customer clicks a CLICK-zenn button in your email, what do they see next?",
+      "hash": "95b9b9e53ae3",
+      "bytes": 74021
+    },
+    "intro-2": {
+      "text": "A landing page. In the next few minutes, we'll make it look and sound like your brand, with no web design needed.",
+      "hash": "60a199d0df8e",
+      "bytes": 114981
+    },
+    "why-1": {
+      "text": "Clicking any link in an email opens a web browser, and CLICK-zenn buttons are no different. That visit is what tells CLICK-zenn to update the ticket.",
+      "hash": "45f7d49bf7e6",
+      "bytes": 145910
+    },
+    "why-2": {
+      "text": "The landing page is what your customer sees next: clear confirmation that their click worked, instead of a blank tab or an error.",
+      "hash": "68b1cdb6a9d7",
+      "bytes": 131700
+    },
+    "why-3": {
+      "text": "CLICK-zenn hosts it for you, and it reads clearly on phones and desktops alike. There's nothing to build or host yourself.",
+      "hash": "5c6837198202",
+      "bytes": 121251
+    },
+    "open-1": {
+      "text": "To make it yours, open CLICK-zenn in Zendesk, and click Default Landing Page in the left-hand menu.",
+      "hash": "f474f7b07f99",
+      "bytes": 104950
+    },
+    "open-2": {
+      "text": "There are two pages here, a Confirmation page and a Ticket Closed page, and one set of global settings that styles them both.",
+      "hash": "3b72e8591b7f",
+      "bytes": 127938
+    },
+    "brand-1": {
+      "text": "Start with the Global Landing Page Settings. The HTML Browser Title is the text in the browser tab, usually your company name.",
+      "hash": "79fca4acf79a",
+      "bytes": 135461
+    },
+    "brand-2": {
+      "text": "Next, the Template Colors. The Brand Color draws the bold outlines, so it's usually the darker of your colors.",
+      "hash": "ca644bc3c2dc",
+      "bytes": 122505
+    },
+    "brand-3": {
+      "text": "The Accent Color sits behind the text, and the Text Color is the text itself. Choose a pair that's easy to read.",
+      "hash": "001106674919",
+      "bytes": 121251
+    },
+    "brand-4": {
+      "text": "Then the Page Header Image, usually your logo. Click Select new image, and choose a JPG, GIF or PNG up to 3 megabytes.",
+      "hash": "3560285f9f21",
+      "bytes": 160957
+    },
+    "confirm-1": {
+      "text": "Now the Confirmation page. It's shown while the ticket is still active, to let your customer know their response went through.",
+      "hash": "837f0fe39026",
+      "bytes": 113727
+    },
+    "confirm-2": {
+      "text": "Type your message on the left using simple markdown, and the preview on the right shows how it will look.",
+      "hash": "9a8e513c32c2",
+      "bytes": 95755
+    },
+    "confirm-3": {
+      "text": "The toolbar adds common formatting for you, such as bold text or a bulleted list.",
+      "hash": "477617d53989",
+      "bytes": 85724
+    },
+    "confirm-4": {
+      "text": "For security, active content like HTML, JavaScript and CSS is never rendered, so the page stays safe for every customer.",
+      "hash": "2e0f3ef1b613",
+      "bytes": 149672
+    },
+    "closed-1": {
+      "text": "The Ticket Closed page appears when the ticket is no longer active, for example when it's already been solved and closed.",
+      "hash": "3c69181e50ec",
+      "bytes": 113727
+    },
+    "closed-2": {
+      "text": "It lets your customer know their click can't change anything now, so a helpful next step here goes a long way.",
+      "hash": "effd8053f885",
+      "bytes": 108712
+    },
+    "save-1": {
+      "text": "The Preview this page button stays greyed out until your changes are saved. So click Update, at the bottom of the page.",
+      "hash": "346e68decd8b",
+      "bytes": 119997
+    },
+    "save-2": {
+      "text": "Now click Preview this page, and see the finished page exactly as your customers will.",
+      "hash": "65d8f7d65a0e",
+      "bytes": 91994
+    },
+    "result-1": {
+      "text": "So when your customer clicks a button in your email,",
+      "hash": "d5b1435c9b76",
+      "bytes": 43510
+    },
+    "result-2": {
+      "text": "they land on a page with your logo, your colors and your words, in a browser tab with your company's name.",
+      "hash": "583b1fc8621b",
+      "bytes": 113727
+    },
+    "result-3": {
+      "text": "And if they click a button on a ticket that's already closed, your Ticket Closed page tells them what to do next.",
+      "hash": "6db61bed663b",
+      "bytes": 99517
+    },
+    "outro-1": {
+      "text": "That's landing pages: a clear, friendly answer to every click, in your own brand, with nothing to host.",
+      "hash": "6b0e9210c125",
+      "bytes": 117489
+    },
+    "outro-2": {
+      "text": "Want to go further? Use your own subdomain, or send customers to a page of your own, such as a help article or a survey, for every button or just one.",
+      "hash": "994000bdbc8e",
+      "bytes": 155941
+    },
+    "outro-3": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and make every click feel like part of your brand.",
+      "hash": "bebb28496501",
+      "bytes": 90740
+    }
+  }
+}

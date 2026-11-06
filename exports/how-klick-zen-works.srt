@@ -1,0 +1,159 @@
+1
+00:00:00,146 --> 00:00:04,149
+What if your customers could update their
+support tickets with a single click, right
+
+2
+00:00:04,149 --> 00:00:04,816
+from an email?
+
+3
+00:00:04,896 --> 00:00:09,115
+That's Klick-Zen. Let's look at what it
+is, and how it works.
+
+4
+00:00:09,195 --> 00:00:13,987
+Klick-Zen is an app for Zendesk that adds
+one-click action buttons to your emails,
+
+5
+00:00:13,987 --> 00:00:15,798
+agent replies, and Help Center.
+
+6
+00:00:15,878 --> 00:00:20,676
+Each button does something useful to the
+ticket. Confirm it's resolved, route it to
+
+7
+00:00:20,676 --> 00:00:22,815
+the right team, or approve a request.
+
+8
+00:00:22,895 --> 00:00:28,199
+No login, no reply, and no trip to your
+support portal. Just one click.
+
+9
+00:00:28,279 --> 00:00:34,248
+You build buttons right inside Zendesk.
+Choose the words, colors and style to
+
+10
+00:00:34,248 --> 00:00:35,566
+match your brand.
+
+11
+00:00:35,646 --> 00:00:42,270
+Then pick what it does when clicked: set
+the status, add a tag, post a comment, and
+
+12
+00:00:42,270 --> 00:00:46,100
+more. One button can do several actions at
+once.
+
+13
+00:00:46,180 --> 00:00:50,689
+When it's ready, click Create, and
+Klick-Zen gives you a small snippet to
+
+14
+00:00:50,689 --> 00:00:50,998
+copy.
+
+15
+00:00:51,078 --> 00:00:55,388
+Paste it into a trigger, automation or
+macro, or drop a button straight into a
+
+16
+00:00:55,388 --> 00:00:56,991
+reply from the ticket editor.
+
+17
+00:00:57,071 --> 00:01:01,841
+Zendesk fills in the ticket details on
+every email, so each button knows exactly
+
+18
+00:01:01,841 --> 00:01:03,451
+which ticket it belongs to.
+
+19
+00:01:03,531 --> 00:01:08,000
+Here's what your customer receives: a
+friendly message, and one clear button.
+
+20
+00:01:08,080 --> 00:01:12,299
+When they click, Klick-Zen applies the
+actions you chose to their ticket, through
+
+21
+00:01:12,299 --> 00:01:14,279
+its secure connection to your Zendesk.
+
+22
+00:01:14,359 --> 00:01:18,475
+It's a normal ticket update, so your
+triggers and automations react just as
+
+23
+00:01:18,475 --> 00:01:20,231
+they would to an agent's change.
+
+24
+00:01:20,311 --> 00:01:25,472
+Your customer lands on a confirmation page
+with your logo, colors and message, hosted
+
+25
+00:01:25,472 --> 00:01:26,261
+by Klick-Zen.
+
+26
+00:01:26,341 --> 00:01:31,419
+And back in Zendesk, the ticket is already
+solved, with nothing left for your agents
+
+27
+00:01:31,419 --> 00:01:31,782
+to do.
+
+28
+00:01:31,862 --> 00:01:37,500
+Is it safe? Yes. Each link works only for
+its own ticket, and a click can only do
+
+29
+00:01:37,500 --> 00:01:38,614
+what you set up.
+
+30
+00:01:38,694 --> 00:01:43,163
+Customers never need to log in, and
+automated email scanners can't set a
+
+31
+00:01:43,163 --> 00:01:44,590
+button off by accident.
+
+32
+00:01:44,670 --> 00:01:49,421
+Faster resolutions, cleaner ticket data,
+and a customer experience that feels
+
+33
+00:01:49,421 --> 00:01:50,100
+effortless.
+
+34
+00:01:50,180 --> 00:01:54,909
+Find Klick-Zen on the Zendesk Marketplace,
+and give your customers a one-click way to
+
+35
+00:01:54,909 --> 00:01:55,799
+get things done.

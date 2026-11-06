@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walkthrough Admin</title>
+<link rel="icon" href="/framework/assets/favicon.ico">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="top">
+  <img class="logo logo-light" src="/framework/assets/klick-zen-logo.png" alt="Klick-Zen">
+  <img class="logo logo-dark" src="/framework/assets/klick-zen-logo-dark.png" alt="Klick-Zen">
+  <h1>Walkthrough Admin</h1>
+  <span class="grow"></span>
+  <span class="chip" id="voice-chip" title="Set in walkthroughs/voice.json"></span>
+  <a class="btn ghost" href="/walkthroughs/" target="_blank" rel="noopener">Open gallery ↗</a>
+</header>
+
+<div class="layout">
+  <nav class="side">
+    <button class="ask-btn" id="claude-btn" type="button"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 6.1L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.9z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z"/></svg>Ask Claude<span class="ask-dot" id="claude-dot" hidden></span></button>
+    <div class="side-head">Walkthroughs</div>
+    <div id="list"></div>
+    <button class="btn" id="new-btn" type="button">+ New walkthrough</button>
+    <button class="side-link" id="gallery-btn" type="button">Gallery order</button>
+    <button class="side-link" id="voices-btn" type="button">Voices</button>
+    <button class="side-link" id="zip-btn" type="button" title="Downloads the framework and walkthroughs folders as one ZIP file">Download ZIP</button>
+  </nav>
+
+  <main id="main">
+    <div class="empty">Pick a walkthrough on the left.</div>
+  </main>
+</div>
+
+<dialog id="new-dlg">
+  <form method="dialog" id="new-form">
+    <h2>New walkthrough</h2>
+    <p class="muted">Starts as a copy of the template, which you then build out in its <code>walkthrough.js</code>.</p>
+    <label>Title<input name="title" required placeholder="Landing pages: send customers somewhere useful"></label>
+    <label>Folder name<input name="name" required pattern="[a-z0-9][a-z0-9\-]{1,40}" placeholder="landing-pages"></label>
+    <p class="err" id="new-err"></p>
+    <div class="row end"><button class="btn ghost" value="cancel" formnovalidate>Cancel</button><button class="btn primary" value="ok">Create</button></div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast"></div>
+<script src="admin.js"></script>
+</body>
+</html>

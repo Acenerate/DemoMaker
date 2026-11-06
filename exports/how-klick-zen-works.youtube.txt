@@ -1,0 +1,20 @@
+TITLE
+How Klick-Zen Works
+
+DESCRIPTION
+An animated walkthrough, about two minutes. What Klick-Zen is, and what happens when your customer clicks.
+
+One click. Ticket solved. Ready to try it with your own customers?
+Get Klick-Zen on the Zendesk Marketplace: https://www.zendesk.com/marketplace/apps/support/1097296/klick-zen-action-buttons/
+
+Chapters:
+0:00 Introduction & What Klick-Zen is
+0:27 Step 2: Build a button
+0:45 Step 3: Add it to your emails
+1:03 Step 4: The click
+1:19 After the click
+1:31 Step 5: Safe by design
+1:44 Next steps
+
+CAPTIONS
+Upload how-klick-zen-works.srt in YouTube Studio under Subtitles (language: English).

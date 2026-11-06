@@ -1,0 +1,20 @@
+TITLE
+Quick Start: your first one-click button
+
+DESCRIPTION
+An animated walkthrough, under three minutes. Watch a Close Ticket button go from idea to inbox.
+
+One click. Ticket solved. Ready to try it with your own customers?
+Get Klick-Zen on the Zendesk Marketplace: https://www.zendesk.com/marketplace/apps/support/1097296/klick-zen-action-buttons/
+
+Chapters:
+0:00 Introduction
+0:13 Step 1: Start a new button & Label the button
+0:36 Step 3: Make it yours
+0:50 Step 4: Choose what it does & Save it
+1:17 Step 6: Add it to an email
+1:30 What your customer sees
+1:46 Next steps
+
+CAPTIONS
+Upload quick-start.srt in YouTube Studio under Subtitles (language: English).

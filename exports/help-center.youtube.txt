@@ -1,0 +1,20 @@
+TITLE
+Using Buttons in the Help Center
+
+DESCRIPTION
+An animated walkthrough, about two minutes. Watch one-click buttons appear on the page where customers view their tickets.
+
+One click, right in your Help Center. Ready to try it with your own customers?
+Get Klick-Zen on the Zendesk Marketplace: https://www.zendesk.com/marketplace/apps/support/1097296/klick-zen-action-buttons/
+
+Chapters:
+0:00 Introduction
+0:14 Step 1: Copy the snippet
+0:36 Step 2: Open the theme code
+1:06 Step 3: Paste the snippet
+1:25 Step 4: Preview and publish
+1:38 What your customer sees
+1:55 Next steps
+
+CAPTIONS
+Upload help-center.srt in YouTube Studio under Subtitles (language: English).

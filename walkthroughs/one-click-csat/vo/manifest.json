@@ -1,0 +1,119 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "Most satisfaction surveys lose people at the click-through: open a link, wait for a page, then fill out a form.",
+      "hash": "a4fd209de4dd",
+      "bytes": 118743
+    },
+    "intro-2": {
+      "text": "With CLICK-zenn, the rating buttons sit right in the email, so a single click is the entire survey.",
+      "hash": "0ed857213ac2",
+      "bytes": 98263
+    },
+    "good-1": {
+      "text": "Start with a button for happy customers. In CLICK-zenn, click Create new button, and name it see-sat Good.",
+      "hash": "dea989c999f4",
+      "bytes": 123758
+    },
+    "good-2": {
+      "text": "Type its label right on the button: Great. Then give it a friendly green.",
+      "hash": "90a12b8b2012",
+      "bytes": 89486
+    },
+    "good-3": {
+      "text": "Now the actions. Click Add button action, choose Add Ticket Tag, and enter see-sat good.",
+      "hash": "a410694e8269",
+      "bytes": 119997
+    },
+    "good-4": {
+      "text": "Add a second action, Update Ticket Field, to set a see-sat rating custom field to good. Then click Create.",
+      "hash": "a72812e9a706",
+      "bytes": 135461
+    },
+    "bad-1": {
+      "text": "Then build its partner, Not so good. It adds the tag see-sat bad, and sets see-sat rating to bad.",
+      "hash": "57244206eb68",
+      "bytes": 119997
+    },
+    "bad-2": {
+      "text": "It also sets the ticket status back to Open, so an unhappy customer gets attention straight away. Click Create.",
+      "hash": "8fd711afc711",
+      "bytes": 121251
+    },
+    "scales-1": {
+      "text": "That's the simple version: two buttons, good or bad.",
+      "hash": "be0155b14aba",
+      "bytes": 66498
+    },
+    "scales-2": {
+      "text": "Want more detail? Build five buttons instead, from 1, Very bad, to 5, Great, each with its own rating and tag.",
+      "hash": "d11d571cd2fe",
+      "bytes": 148418
+    },
+    "email-1": {
+      "text": "Put the buttons in the email that goes out when a ticket is solved. That can be a trigger email, or part of your solve macro.",
+      "hash": "fa44b67c3a72",
+      "bytes": 117489
+    },
+    "email-2": {
+      "text": "Write a short question, then paste the two snippets side by side.",
+      "hash": "ae2eb82214a7",
+      "bytes": 70260
+    },
+    "email-3": {
+      "text": "Save the trigger, and your survey is live.",
+      "hash": "101a70bbf3ba",
+      "bytes": 49780
+    },
+    "result-1": {
+      "text": "Your customer gets one simple question, and two buttons.",
+      "hash": "75ff9509b167",
+      "bytes": 59811
+    },
+    "result-2": {
+      "text": "One click on Great, and they land on your branded thank-you page. That's the whole survey.",
+      "hash": "db728ead2a54",
+      "bytes": 89486
+    },
+    "result-3": {
+      "text": "Back in Zendesk, the rating is already on the ticket, as a tag and a custom field, ready to report on in Zendesk Explore.",
+      "hash": "85c5e0a6a06c",
+      "bytes": 130446
+    },
+    "loop-1": {
+      "text": "Here's where it gets powerful. Because the rating is a tag, your Zendesk triggers can act on it instantly.",
+      "hash": "964e9eccc52b",
+      "bytes": 111220
+    },
+    "loop-2": {
+      "text": "When see-sat bad is added, a trigger can reopen the ticket, raise the priority to High, alert a team lead, and tell the customer a senior agent is on it.",
+      "hash": "0fc593620105",
+      "bytes": 168898
+    },
+    "loop-3": {
+      "text": "A poor rating stops being a number in a dashboard, and becomes a recovery that starts within seconds.",
+      "hash": "9b802dae53c6",
+      "bytes": 104950
+    },
+    "outro-1": {
+      "text": "Compared with Zendesk's built-in survey, you choose the wording, the look, the scale, and where it appears.",
+      "hash": "f098f829cd48",
+      "bytes": 111220
+    },
+    "outro-2": {
+      "text": "Use it in any trigger, macro, or reply, even where native satisfaction surveys aren't available.",
+      "hash": "83905c189c13",
+      "bytes": 104950
+    },
+    "outro-3": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and make your next survey a single click.",
+      "hash": "cbdb79998e4a",
+      "bytes": 81545
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "elevenlabs",
+  "voiceId": "ie7nFrP219iK5GuNOBTQ",
+  "voiceName": "Dave",
+  "voices": [
+    {
+      "name": "Adalina",
+      "id": "i2SoWWnAm3qCyr53Jenw"
+    },
+    {
+      "name": "Dave",
+      "id": "ie7nFrP219iK5GuNOBTQ"
+    }
+  ],
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
+  "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.5,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1.2
+  },
+  "pronunciations": {
+    "Klick-Zen": "CLICK-zenn",
+    "KlickButtons": "CLICK-buttons",
+    "SLA": "S L A",
+    "CSAT": "see-sat",
+    "csat_bad": "see-sat bad",
+    "csat_good": "see-sat good",
+    "csat_rating": "see-sat rating"
+  }
+}

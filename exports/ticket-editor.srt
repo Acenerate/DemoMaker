@@ -1,0 +1,82 @@
+1
+00:00:00,142 --> 00:00:04,529
+Sometimes the best place for a one-click
+button is right in the middle of a reply.
+
+2
+00:00:04,609 --> 00:00:09,222
+With Klick-Zen, your agents can drop one
+into any ticket response, with just a
+
+3
+00:00:09,222 --> 00:00:09,577
+click.
+
+4
+00:00:09,657 --> 00:00:14,189
+Write your reply in the Zendesk ticket
+editor as usual, and place your cursor
+
+5
+00:00:14,189 --> 00:00:15,778
+where the button should go.
+
+6
+00:00:15,858 --> 00:00:19,354
+Then click the Klick-Zen icon in the
+editor toolbar.
+
+7
+00:00:19,434 --> 00:00:23,388
+A pop-up shows the buttons in your
+account, each one pictured just as it
+
+8
+00:00:23,388 --> 00:00:24,925
+looks, so you pick by sight.
+
+9
+00:00:25,005 --> 00:00:29,754
+Click one, and it lands right in your
+message, exactly as your customer will see
+
+10
+00:00:29,754 --> 00:00:29,932
+it.
+
+11
+00:00:30,012 --> 00:00:34,397
+Want to give your customer a choice? Add a
+second button right beside the first.
+
+12
+00:00:34,477 --> 00:00:39,199
+Klick-Zen fills in this ticket's details
+as each button goes in, so every link is
+
+13
+00:00:39,199 --> 00:00:39,899
+ready to go.
+
+14
+00:00:39,979 --> 00:00:44,145
+Add a closing line, send your reply, and
+you're done.
+
+15
+00:00:44,225 --> 00:00:49,236
+It's perfect for the moments an automation
+won't catch: confirming a fix, gathering
+
+16
+00:00:49,236 --> 00:00:51,168
+details, or offering next steps.
+
+17
+00:00:51,248 --> 00:00:56,191
+Find Klick-Zen on the Zendesk Marketplace,
+and put one-click answers into every
+
+18
+00:00:56,191 --> 00:00:56,566
+reply.

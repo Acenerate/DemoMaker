@@ -1,0 +1,174 @@
+1
+00:00:00,134 --> 00:00:05,245
+Most satisfaction surveys lose people at
+the click-through: open a link, wait for a
+
+2
+00:00:05,245 --> 00:00:06,907
+page, then fill out a form.
+
+3
+00:00:06,987 --> 00:00:11,836
+With Klick-Zen, the rating buttons sit
+right in the email, so a single click is
+
+4
+00:00:11,836 --> 00:00:12,941
+the entire survey.
+
+5
+00:00:13,021 --> 00:00:18,813
+Start with a button for happy customers.
+In Klick-Zen, click Create new button, and
+
+6
+00:00:18,813 --> 00:00:20,069
+name it CSAT Good.
+
+7
+00:00:20,149 --> 00:00:25,286
+Type its label right on the button: Great.
+Then give it a friendly green.
+
+8
+00:00:25,366 --> 00:00:31,371
+Now the actions. Click Add button action,
+choose Add Ticket Tag, and enter
+
+9
+00:00:31,371 --> 00:00:32,183
+csat_good.
+
+10
+00:00:32,263 --> 00:00:39,804
+Add a second action, Update Ticket Field,
+to set a csat_rating custom field to good.
+
+11
+00:00:39,804 --> 00:00:41,420
+Then click Create.
+
+12
+00:00:41,500 --> 00:00:46,891
+Then build its partner, Not so good. It
+adds the tag csat_bad, and sets
+
+13
+00:00:46,891 --> 00:00:48,334
+csat_rating to bad.
+
+14
+00:00:48,414 --> 00:00:54,146
+It also sets the ticket status back to
+Open, so an unhappy customer gets
+
+15
+00:00:54,146 --> 00:00:57,171
+attention straight away. Click Create.
+
+16
+00:00:57,251 --> 00:01:01,139
+That's the simple version: two buttons,
+good or bad.
+
+17
+00:01:01,219 --> 00:01:07,274
+Want more detail? Build five buttons
+instead, from 1, Very bad, to 5, Great,
+
+18
+00:01:07,274 --> 00:01:09,903
+each with its own rating and tag.
+
+19
+00:01:09,983 --> 00:01:14,352
+Put the buttons in the email that goes out
+when a ticket is solved. That can be a
+
+20
+00:01:14,352 --> 00:01:16,671
+trigger email, or part of your solve
+macro.
+
+21
+00:01:16,751 --> 00:01:21,355
+Write a short question, then paste the two
+snippets side by side.
+
+22
+00:01:21,435 --> 00:01:24,773
+Save the trigger, and your survey is live.
+
+23
+00:01:24,853 --> 00:01:28,404
+Your customer gets one simple question,
+and two buttons.
+
+24
+00:01:28,484 --> 00:01:33,223
+One click on Great, and they land on your
+branded thank-you page. That's the whole
+
+25
+00:01:33,223 --> 00:01:33,628
+survey.
+
+26
+00:01:33,708 --> 00:01:38,972
+Back in Zendesk, the rating is already on
+the ticket, as a tag and a custom field,
+
+27
+00:01:38,972 --> 00:01:41,411
+ready to report on in Zendesk Explore.
+
+28
+00:01:41,491 --> 00:01:46,620
+Here's where it gets powerful. Because the
+rating is a tag, your Zendesk triggers can
+
+29
+00:01:46,620 --> 00:01:47,827
+act on it instantly.
+
+30
+00:01:47,907 --> 00:01:52,861
+When csat_bad is added, a trigger can
+reopen the ticket, raise the priority to
+
+31
+00:01:52,861 --> 00:01:57,371
+High, alert a team lead, and tell the
+customer a senior agent is on it.
+
+32
+00:01:57,451 --> 00:02:02,380
+A poor rating stops being a number in a
+dashboard, and becomes a recovery that
+
+33
+00:02:02,380 --> 00:02:03,770
+starts within seconds.
+
+34
+00:02:03,850 --> 00:02:08,512
+Compared with Zendesk's built-in survey,
+you choose the wording, the look, the
+
+35
+00:02:08,512 --> 00:02:10,185
+scale, and where it appears.
+
+36
+00:02:10,265 --> 00:02:15,186
+Use it in any trigger, macro, or reply,
+even where native satisfaction surveys
+
+37
+00:02:15,186 --> 00:02:16,259
+aren't available.
+
+38
+00:02:16,339 --> 00:02:21,203
+Find Klick-Zen on the Zendesk Marketplace,
+and make your next survey a single click.

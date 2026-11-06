@@ -1,0 +1,129 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "What if your customers could close their own support tickets with a single click? No reply, no login, no back and forth.",
+      "hash": "f6cd49234f24",
+      "bytes": 118743
+    },
+    "intro-2": {
+      "text": "That's CLICK-zenn. In the next couple of minutes, we'll build a Close Ticket button and put it into a real Zendesk email.",
+      "hash": "9987a2afee61",
+      "bytes": 116235
+    },
+    "open-1": {
+      "text": "CLICK-zenn lives right inside Zendesk. Open it from the sidebar",
+      "hash": "3157a9daefc3",
+      "bytes": 72767
+    },
+    "open-2": {
+      "text": "Under Available CLICK-buttons, click \"Create new button\".",
+      "hash": "abcbcecb64e0",
+      "bytes": 66498
+    },
+    "open-3": {
+      "text": "First, give it an internal name, so your team can find it later. We'll call this one Ticket Close.",
+      "hash": "16f000242e16",
+      "bytes": 107458
+    },
+    "label-1": {
+      "text": "Now for the words your customer will see. Just type right on the button.",
+      "hash": "83ad127ad6c3",
+      "bytes": 65244
+    },
+    "label-2": {
+      "text": "Close Ticket. Short, clear, and it says exactly what will happen.",
+      "hash": "00fc5119fd6e",
+      "bytes": 77783
+    },
+    "style-1": {
+      "text": "It already works, but let's make it look the part. A friendly green background,",
+      "hash": "342051b5efee",
+      "bytes": 77783
+    },
+    "style-2": {
+      "text": "white text, bold lettering, and softer corners.",
+      "hash": "6b639946e5d8",
+      "bytes": 65244
+    },
+    "style-3": {
+      "text": "CLICK-zenn hosts the button image for you, so it looks exactly like this in every email client.",
+      "hash": "1829034310b6",
+      "bytes": 97009
+    },
+    "action-1": {
+      "text": "Next, tell the button what to do. Click Add button action, and choose Set Ticket Status.",
+      "hash": "a54d4fe228a4",
+      "bytes": 104950
+    },
+    "action-2": {
+      "text": "Set the new status to Solved. That's the whole workflow.",
+      "hash": "e96a9cf4fdd6",
+      "bytes": 67752
+    },
+    "action-3": {
+      "text": "Does your Zendesk require an assignee before a ticket can be solved? Add one here, and turn on If Blank, so existing assignments stay untouched.",
+      "hash": "d94f8a9e312d",
+      "bytes": 152180
+    },
+    "save-1": {
+      "text": "Click Create. CLICK-zenn saves your button and generates a ready-to-paste snippet.",
+      "hash": "758037e5da04",
+      "bytes": 88232
+    },
+    "save-2": {
+      "text": "Copy it with one click.",
+      "hash": "48e6d284ede2",
+      "bytes": 34315
+    },
+    "email-1": {
+      "text": "Now put it where your customers will see it. In Zendesk, open a trigger that emails the requester.",
+      "hash": "7a3ca14625f3",
+      "bytes": 97009
+    },
+    "email-2": {
+      "text": "Write your message, then paste the snippet right below it.",
+      "hash": "766e02412f7b",
+      "bytes": 58557
+    },
+    "email-3": {
+      "text": "Save the trigger, and you're live.",
+      "hash": "213e4b2e873e",
+      "bytes": 33061
+    },
+    "result-1": {
+      "text": "Here's what your customer receives. A friendly message, and one obvious button.",
+      "hash": "c3cb262f5433",
+      "bytes": 84470
+    },
+    "result-2": {
+      "text": "One click, and they land on a confirmation page. Nothing else to do.",
+      "hash": "7d217f815d0d",
+      "bytes": 74021
+    },
+    "result-3": {
+      "text": "And back in Zendesk, the ticket is already solved. No reply to read, and no agent time spent.",
+      "hash": "b27f0e0ac852",
+      "bytes": 108712
+    },
+    "outro-1": {
+      "text": "That's your first CLICK-zenn button, built in minutes.",
+      "hash": "480faf847c88",
+      "bytes": 57303
+    },
+    "outro-2": {
+      "text": "From here, you can offer a Still need help choice, make buttons single use, or follow up with a one-click satisfaction survey.",
+      "hash": "53a0a9e4941d",
+      "bytes": 136715
+    },
+    "outro-3": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and let your customers close the loop with a single click.",
+      "hash": "cf0847c7bfd9",
+      "bytes": 94501
+    }
+  }
+}

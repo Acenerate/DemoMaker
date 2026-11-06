@@ -1,0 +1,109 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "Your customers already check on their tickets in your Help Center. What if they could act on them right there, with one click?",
+      "hash": "a9146c25d4bc",
+      "bytes": 112474
+    },
+    "intro-2": {
+      "text": "With CLICK-zenn, you can add buttons to the page where a customer views their ticket, so they can confirm a fix, escalate, or choose a next step.",
+      "hash": "44a12fecc89a",
+      "bytes": 135461
+    },
+    "copy-1": {
+      "text": "Start in Zendesk. Open the CLICK-zenn app from the left sidebar, and click Available CLICK-buttons.",
+      "hash": "499d6f7e874c",
+      "bytes": 111220
+    },
+    "copy-2": {
+      "text": "Now the important part: turn on the \"Help Center Links\" toggle. The Zendesk Help Center uses slightly different placeholders than it does for triggers and automations, so the standard snippets won't work there.",
+      "hash": "f75dede938ae",
+      "bytes": 198155
+    },
+    "copy-3": {
+      "text": "Find the button you want, and click copy beside its HTML snippet.",
+      "hash": "e3185a666da4",
+      "bytes": 76529
+    },
+    "theme-1": {
+      "text": "Next, click the Zendesk Products icon in the top bar, and select Knowledge. In your help center, click Knowledge admin in the top bar, then click the Customize design icon, the paintbrush.",
+      "hash": "97bd2f712422",
+      "bytes": 213620
+    },
+    "theme-2": {
+      "text": "A good habit: duplicate your live theme and edit the copy, so you can preview the button before customers see it.",
+      "hash": "8ed9abe72310",
+      "bytes": 112474
+    },
+    "theme-3": {
+      "text": "On your copy, click Customize in the corner of the theme preview, then click Edit code.",
+      "hash": "9fbc6a0f038f",
+      "bytes": 94501
+    },
+    "theme-4": {
+      "text": "Open request_page.hbs. That's the template for the page where a customer views their own ticket.",
+      "hash": "04d2174de98a",
+      "bytes": 123758
+    },
+    "paste-1": {
+      "text": "Choose where the button should appear, for example in the ticket details on the right, and paste the snippet in.",
+      "hash": "4fc604f2c162",
+      "bytes": 100771
+    },
+    "paste-2": {
+      "text": "One button is all that's needed for this example, and you can always paste more beside it to offer a choice.",
+      "hash": "5215b8ee7599",
+      "bytes": 99517
+    },
+    "paste-3": {
+      "text": "Keep it in request_page.hbs: the Help Center placeholders only fill in on this page.",
+      "hash": "924f0662fc2b",
+      "bytes": 118743
+    },
+    "publish-1": {
+      "text": "Preview the theme, and open a ticket as a customer to make sure the button shows up and links correctly.",
+      "hash": "78ee46cc94f7",
+      "bytes": 98263
+    },
+    "publish-2": {
+      "text": "When you're happy, publish the theme. Every customer viewing their own ticket now sees the button, wired to their own request.",
+      "hash": "b02a1dc631ea",
+      "bytes": 130446
+    },
+    "result-1": {
+      "text": "Here's your customer's view: their ticket, the conversation, and one clear way to escalate.",
+      "hash": "af6edbd4b666",
+      "bytes": 99517
+    },
+    "result-2": {
+      "text": "One click, and they land on a confirmation page. No reply to write, and nothing else to do.",
+      "hash": "96033f6078b4",
+      "bytes": 100771
+    },
+    "result-3": {
+      "text": "Back in Zendesk, the ticket is already marked Urgent, and no agent had to lift a finger.",
+      "hash": "28ae071a954a",
+      "bytes": 93247
+    },
+    "outro-1": {
+      "text": "That's CLICK-zenn in your Help Center: one-click actions, right where customers already look.",
+      "hash": "bb867bfdbfa6",
+      "bytes": 93247
+    },
+    "outro-2": {
+      "text": "You can also use your own button image, or show buttons only on certain tickets, such as open ones, using your theme's existing logic.",
+      "hash": "719ec67aaf8b",
+      "bytes": 135461
+    },
+    "outro-3": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and give your customers a faster way forward.",
+      "hash": "93aad738b376",
+      "bytes": 85724
+    }
+  }
+}

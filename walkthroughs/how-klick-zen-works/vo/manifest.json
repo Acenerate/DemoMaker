@@ -1,0 +1,104 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "What if your customers could update their support tickets with a single click, right from an email?",
+      "hash": "d2a843750b2a",
+      "bytes": 82798
+    },
+    "intro-2": {
+      "text": "That's CLICK-zenn. Let's look at what it is, and how it works.",
+      "hash": "928abe184f06",
+      "bytes": 69006
+    },
+    "click-1": {
+      "text": "Here's what your customer receives: a friendly message, and one clear button.",
+      "hash": "ce0dc855ea50",
+      "bytes": 79037
+    },
+    "click-2": {
+      "text": "When they click, CLICK-zenn applies the actions you chose to their ticket, through its secure connection to your Zendesk.",
+      "hash": "049b18604ff5",
+      "bytes": 111220
+    },
+    "click-3": {
+      "text": "It's a normal ticket update, so your triggers and automations react just as they would to an agent's change.",
+      "hash": "46fd1eb64820",
+      "bytes": 99517
+    },
+    "safe-1": {
+      "text": "Is it safe? Yes. Each link works only for its own ticket, and a click can only do what you set up.",
+      "hash": "799f38361cb2",
+      "bytes": 118743
+    },
+    "safe-2": {
+      "text": "Customers never need to log in, and automated email scanners can't set a button off by accident.",
+      "hash": "fa06302d32da",
+      "bytes": 97009
+    },
+    "after-1": {
+      "text": "Your customer lands on a confirmation page with your logo, colors and message, hosted by CLICK-zenn.",
+      "hash": "6f0c5c8735e0",
+      "bytes": 102025
+    },
+    "outro-1": {
+      "text": "Faster resolutions, cleaner ticket data, and a customer experience that feels effortless.",
+      "hash": "1037d59e3516",
+      "bytes": 94501
+    },
+    "what-1": {
+      "text": "CLICK-zenn is an app for Zendesk that adds one-click action buttons to your emails, agent replies, and Help Center.",
+      "hash": "2234efad9c62",
+      "bytes": 118743
+    },
+    "what-2": {
+      "text": "Each button does something useful to the ticket. Confirm it's resolved, route it to the right team, or approve a request.",
+      "hash": "c90e49fdf9de",
+      "bytes": 125430
+    },
+    "what-3": {
+      "text": "No login, no reply, and no trip to your support portal. Just one click.",
+      "hash": "ad406cad83e5",
+      "bytes": 89486
+    },
+    "build-1": {
+      "text": "You build buttons right inside Zendesk. Choose the words, colors and style to match your brand.",
+      "hash": "dc8e3fe9ace6",
+      "bytes": 99517
+    },
+    "build-2": {
+      "text": "Then pick what it does when clicked: set the status, add a tag, post a comment, and more. One button can do several actions at once.",
+      "hash": "2b17ed1e72a1",
+      "bytes": 141731
+    },
+    "send-1": {
+      "text": "When it's ready, click Create, and CLICK-zenn gives you a small snippet to copy.",
+      "hash": "4920352b838d",
+      "bytes": 80291
+    },
+    "send-2": {
+      "text": "Paste it into a trigger, automation or macro, or drop a button straight into a reply from the ticket editor.",
+      "hash": "fc47fb5ce852",
+      "bytes": 106204
+    },
+    "send-3": {
+      "text": "Zendesk fills in the ticket details on every email, so each button knows exactly which ticket it belongs to.",
+      "hash": "cba5519c3db7",
+      "bytes": 108712
+    },
+    "after-2": {
+      "text": "And back in Zendesk, the ticket is already solved, with nothing left for your agents to do.",
+      "hash": "23dcf2bbbdb4",
+      "bytes": 89486
+    },
+    "outro-2": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and give your customers a one-click way to get things done.",
+      "hash": "75e8c0ae3d87",
+      "bytes": 97009
+    }
+  }
+}

@@ -1,0 +1,158 @@
+1
+00:00:00,136 --> 00:00:04,419
+Writing a good customer email, then
+building the buttons to go in it, takes
+
+2
+00:00:04,419 --> 00:00:08,644
+time. The Klick-Zen Online Template
+Generator does both for you, for free.
+
+3
+00:00:08,724 --> 00:00:12,764
+Pick a few options, and it writes a
+ready-to-paste Zendesk email with
+
+4
+00:00:12,764 --> 00:00:14,814
+Klick-Zen buttons already laid out.
+
+5
+00:00:14,894 --> 00:00:19,884
+Open the generator and start on the left.
+When does the email go out? We'll choose
+
+6
+00:00:19,884 --> 00:00:20,310
+Solved.
+
+7
+00:00:20,390 --> 00:00:25,653
+What should the customer do? Confirm it's
+fixed. Then pick a tone: Friendly or
+
+8
+00:00:25,653 --> 00:00:26,530
+Professional.
+
+9
+00:00:26,610 --> 00:00:31,876
+The preview on the right updates as you
+go: a subject, a message, and buttons that
+
+10
+00:00:31,876 --> 00:00:34,830
+fit. Show sample data fills in example
+values.
+
+11
+00:00:34,910 --> 00:00:39,304
+Prefer a head start? Pick one of the
+ready-made templates instead, for
+
+12
+00:00:39,304 --> 00:00:41,877
+approvals, refunds, escalations and more.
+
+13
+00:00:41,957 --> 00:00:46,980
+Under Making it a working email, open What
+each button does, to see exactly what
+
+14
+00:00:46,980 --> 00:00:49,178
+every button will do to the ticket.
+
+15
+00:00:49,258 --> 00:00:54,480
+The buttons start out as placeholders. To
+make them work, click Download buttons.
+
+16
+00:00:54,560 --> 00:00:59,681
+You get one button file, with each
+button's text, colors and actions already
+
+17
+00:00:59,681 --> 00:00:59,950
+set.
+
+18
+00:01:00,030 --> 00:01:04,671
+In Klick-Zen, under Available
+KlickButtons, click Import buttons, and
+
+19
+00:01:04,671 --> 00:01:05,815
+choose that file.
+
+20
+00:01:05,895 --> 00:01:10,496
+Each button is listed with a short summary
+of what it does. Click Import.
+
+21
+00:01:10,576 --> 00:01:16,313
+Klick-Zen creates them all in one step,
+and shows each button's HTML, ready to
+
+22
+00:01:16,313 --> 00:01:16,681
+copy.
+
+23
+00:01:16,761 --> 00:01:21,295
+Back in the generator, paste each button's
+HTML into the box next to it.
+
+24
+00:01:21,375 --> 00:01:25,947
+The preview switches to your real
+Klick-Zen buttons, and the note confirms:
+
+25
+00:01:25,947 --> 00:01:27,349
+All buttons are linked.
+
+26
+00:01:27,429 --> 00:01:33,465
+Now click Copy HTML. This email goes out
+when a ticket is solved, so it belongs in
+
+27
+00:01:33,465 --> 00:01:34,201
+a trigger.
+
+28
+00:01:34,281 --> 00:01:39,532
+Paste it into the trigger's Email body,
+use the generator's subject, and save.
+
+29
+00:01:39,612 --> 00:01:43,797
+Your customer gets a clear, friendly
+email, with two simple choices.
+
+30
+00:01:43,877 --> 00:01:49,014
+One click on Yes, all set, and they land
+on a thank-you page. Nothing to type.
+
+31
+00:01:49,094 --> 00:01:54,096
+Back in Zendesk, the answer is already on
+the ticket, with no reply to read.
+
+32
+00:01:54,176 --> 00:01:57,390
+A finished email and working buttons, in
+minutes.
+
+33
+00:01:57,470 --> 00:02:01,773
+Try the free Online Template Generator,
+and find Klick-Zen on the Zendesk
+
+34
+00:02:01,773 --> 00:02:02,480
+Marketplace.

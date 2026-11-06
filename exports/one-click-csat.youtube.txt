@@ -1,0 +1,21 @@
+TITLE
+How do I create a one-click CSAT?
+
+DESCRIPTION
+An animated walkthrough, about two minutes. Put rating buttons right in the email, and record every answer on the ticket.
+
+One click. Survey done. Ready to hear from more of your customers?
+Get Klick-Zen on the Zendesk Marketplace: https://www.zendesk.com/marketplace/apps/support/1097296/klick-zen-action-buttons/
+
+Chapters:
+0:00 Introduction
+0:12 Step 1: Build the "Great" button
+0:41 Step 2: Add a "Not so good" button
+0:56 Pick your scale
+1:09 Step 3: Add them to the solve email
+1:24 What your customer sees
+1:41 Step 4: Close the loop on bad ratings
+2:03 Next steps
+
+CAPTIONS
+Upload one-click-csat.srt in YouTube Studio under Subtitles (language: English).

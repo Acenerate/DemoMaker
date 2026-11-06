@@ -1,0 +1,158 @@
+1
+00:00:00,132 --> 00:00:04,629
+What if your customers could close their
+own support tickets with a single click?
+
+2
+00:00:04,629 --> 00:00:06,738
+No reply, no login, no back and forth.
+
+3
+00:00:06,818 --> 00:00:11,484
+That's Klick-Zen. In the next couple of
+minutes, we'll build a Close Ticket button
+
+4
+00:00:11,484 --> 00:00:13,590
+and put it into a real Zendesk email.
+
+5
+00:00:13,670 --> 00:00:17,778
+Klick-Zen lives right inside Zendesk. Open
+it from the sidebar
+
+6
+00:00:17,858 --> 00:00:21,617
+Under Available KlickButtons, click
+"Create new button".
+
+7
+00:00:21,697 --> 00:00:26,880
+First, give it an internal name, so your
+team can find it later. We'll call this
+
+8
+00:00:26,880 --> 00:00:27,981
+one Ticket Close.
+
+9
+00:00:28,061 --> 00:00:31,740
+Now for the words your customer will see.
+Just type right on the button.
+
+10
+00:00:31,820 --> 00:00:36,505
+Close Ticket. Short, clear, and it says
+exactly what will happen.
+
+11
+00:00:36,585 --> 00:00:40,954
+It already works, but let's make it look
+the part. A friendly green background,
+
+12
+00:00:41,034 --> 00:00:44,991
+white text, bold lettering, and softer
+corners.
+
+13
+00:00:45,071 --> 00:00:50,008
+Klick-Zen hosts the button image for you,
+so it looks exactly like this in every
+
+14
+00:00:50,008 --> 00:00:50,810
+email client.
+
+15
+00:00:50,890 --> 00:00:56,272
+Next, tell the button what to do. Click
+Add button action, and choose Set Ticket
+
+16
+00:00:56,272 --> 00:00:56,743
+Status.
+
+17
+00:00:56,823 --> 00:01:00,642
+Set the new status to Solved. That's the
+whole workflow.
+
+18
+00:01:00,722 --> 00:01:05,360
+Does your Zendesk require an assignee
+before a ticket can be solved? Add one
+
+19
+00:01:05,360 --> 00:01:09,449
+here, and turn on If Blank, so existing
+assignments stay untouched.
+
+20
+00:01:09,529 --> 00:01:14,716
+Click Create. Klick-Zen saves your button
+and generates a ready-to-paste snippet.
+
+21
+00:01:14,796 --> 00:01:17,578
+Copy it with one click.
+
+22
+00:01:17,658 --> 00:01:22,299
+Now put it where your customers will see
+it. In Zendesk, open a trigger that emails
+
+23
+00:01:22,299 --> 00:01:23,082
+the requester.
+
+24
+00:01:23,162 --> 00:01:28,026
+Write your message, then paste the snippet
+right below it.
+
+25
+00:01:28,106 --> 00:01:31,223
+Save the trigger, and you're live.
+
+26
+00:01:31,303 --> 00:01:36,013
+Here's what your customer receives. A
+friendly message, and one obvious button.
+
+27
+00:01:36,093 --> 00:01:40,270
+One click, and they land on a confirmation
+page. Nothing else to do.
+
+28
+00:01:40,350 --> 00:01:45,963
+And back in Zendesk, the ticket is already
+solved. No reply to read, and no agent
+
+29
+00:01:45,963 --> 00:01:46,725
+time spent.
+
+30
+00:01:46,805 --> 00:01:50,055
+That's your first Klick-Zen button, built
+in minutes.
+
+31
+00:01:50,135 --> 00:01:55,292
+From here, you can offer a Still need help
+choice, make buttons single use, or follow
+
+32
+00:01:55,292 --> 00:01:57,719
+up with a one-click satisfaction survey.
+
+33
+00:01:57,799 --> 00:02:02,654
+Find Klick-Zen on the Zendesk Marketplace,
+and let your customers close the loop with
+
+34
+00:02:02,654 --> 00:02:03,511
+a single click.

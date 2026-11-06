@@ -1,0 +1,114 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Dave",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "Writing a good customer email, then building the buttons to go in it, takes time. The CLICK-zenn Online Template Generator does both for you, for free.",
+      "hash": "f55a82394b15",
+      "bytes": 150926
+    },
+    "intro-2": {
+      "text": "Pick a few options, and it writes a ready-to-paste Zendesk email with CLICK-zenn buttons already laid out.",
+      "hash": "a1b68fcfadac",
+      "bytes": 100771
+    },
+    "build-1": {
+      "text": "Open the generator and start on the left. When does the email go out? We'll choose Solved.",
+      "hash": "07ff5bbb13b0",
+      "bytes": 94501
+    },
+    "build-2": {
+      "text": "What should the customer do? Confirm it's fixed. Then pick a tone: Friendly or Professional.",
+      "hash": "f38a6a157b21",
+      "bytes": 107458
+    },
+    "build-3": {
+      "text": "The preview on the right updates as you go: a subject, a message, and buttons that fit. Show sample data fills in example values.",
+      "hash": "cc8949445fb3",
+      "bytes": 145910
+    },
+    "build-4": {
+      "text": "Prefer a head start? Pick one of the ready-made templates instead, for approvals, refunds, escalations and more.",
+      "hash": "347c8d92ac01",
+      "bytes": 122505
+    },
+    "build-5": {
+      "text": "Under Making it a working email, open What each button does, to see exactly what every button will do to the ticket.",
+      "hash": "d578f910509c",
+      "bytes": 121251
+    },
+    "download-1": {
+      "text": "The buttons start out as placeholders. To make them work, click Download buttons.",
+      "hash": "979e109d39e9",
+      "bytes": 90740
+    },
+    "download-2": {
+      "text": "You get one button file, with each button's text, colors and actions already set.",
+      "hash": "cb11288b1a3a",
+      "bytes": 88232
+    },
+    "import-1": {
+      "text": "In CLICK-zenn, under Available CLICK-buttons, click Import buttons, and choose that file.",
+      "hash": "0efc1606ecfa",
+      "bytes": 100771
+    },
+    "import-2": {
+      "text": "Each button is listed with a short summary of what it does. Click Import.",
+      "hash": "f2a8360da842",
+      "bytes": 79037
+    },
+    "import-3": {
+      "text": "CLICK-zenn creates them all in one step, and shows each button's HTML, ready to copy.",
+      "hash": "e0aff1f0a796",
+      "bytes": 100771
+    },
+    "link-1": {
+      "text": "Back in the generator, paste each button's HTML into the box next to it.",
+      "hash": "56362f19eff3",
+      "bytes": 77783
+    },
+    "link-2": {
+      "text": "The preview switches to your real CLICK-zenn buttons, and the note confirms: All buttons are linked.",
+      "hash": "df38e6b4e0e4",
+      "bytes": 98263
+    },
+    "zendesk-1": {
+      "text": "Now click Copy HTML. This email goes out when a ticket is solved, so it belongs in a trigger.",
+      "hash": "e6fde08b62eb",
+      "bytes": 118743
+    },
+    "zendesk-2": {
+      "text": "Paste it into the trigger's Email body, use the generator's subject, and save.",
+      "hash": "c1b597f3cd92",
+      "bytes": 85724
+    },
+    "result-1": {
+      "text": "Your customer gets a clear, friendly email, with two simple choices.",
+      "hash": "8f61f696866a",
+      "bytes": 71514
+    },
+    "result-2": {
+      "text": "One click on Yes, all set, and they land on a thank-you page. Nothing to type.",
+      "hash": "c426119ca4df",
+      "bytes": 89486
+    },
+    "result-3": {
+      "text": "Back in Zendesk, the answer is already on the ticket, with no reply to read.",
+      "hash": "8ecf76c4d89c",
+      "bytes": 80291
+    },
+    "outro-1": {
+      "text": "A finished email and working buttons, in minutes.",
+      "hash": "eb4fdf15d5f4",
+      "bytes": 53541
+    },
+    "outro-2": {
+      "text": "Try the free Online Template Generator, and find CLICK-zenn on the Zendesk Marketplace.",
+      "hash": "cdf841ad771e",
+      "bytes": 84470
+    }
+  }
+}

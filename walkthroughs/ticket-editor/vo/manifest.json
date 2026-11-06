@@ -1,0 +1,64 @@
+{
+  "voice": {
+    "id": "ie7nFrP219iK5GuNOBTQ",
+    "name": "Adalina",
+    "model": "eleven_v4"
+  },
+  "lines": {
+    "intro-1": {
+      "text": "Sometimes the best place for a one-click button is right in the middle of a reply.",
+      "hash": "8c128d3434a8",
+      "bytes": 77783
+    },
+    "intro-2": {
+      "text": "With CLICK-zenn, your agents can drop one into any ticket response, with just a click.",
+      "hash": "ceeec1fed735",
+      "bytes": 82798
+    },
+    "insert-1": {
+      "text": "Write your reply in the Zendesk ticket editor as usual, and place your cursor where the button should go.",
+      "hash": "8eecc3fca61c",
+      "bytes": 94501
+    },
+    "insert-2": {
+      "text": "Then click the CLICK-zenn icon in the editor toolbar.",
+      "hash": "76a4c27d44b9",
+      "bytes": 61065
+    },
+    "insert-3": {
+      "text": "A pop-up shows the buttons in your account, each one pictured just as it looks, so you pick by sight.",
+      "hash": "e52598132e4c",
+      "bytes": 98263
+    },
+    "insert-4": {
+      "text": "Click one, and it lands right in your message, exactly as your customer will see it.",
+      "hash": "90de80134743",
+      "bytes": 81545
+    },
+    "choice-1": {
+      "text": "Want to give your customer a choice? Add a second button right beside the first.",
+      "hash": "53b332880e5e",
+      "bytes": 77783
+    },
+    "choice-2": {
+      "text": "CLICK-zenn fills in this ticket's details as each button goes in, so every link is ready to go.",
+      "hash": "c698a03c846b",
+      "bytes": 97009
+    },
+    "choice-3": {
+      "text": "Add a closing line, send your reply, and you're done.",
+      "hash": "bb5bd8915e92",
+      "bytes": 57303
+    },
+    "outro-1": {
+      "text": "It's perfect for the moments an automation won't catch: confirming a fix, gathering details, or offering next steps.",
+      "hash": "24c72b859cb1",
+      "bytes": 125430
+    },
+    "outro-2": {
+      "text": "Find CLICK-zenn on the Zendesk Marketplace, and put one-click answers into every reply.",
+      "hash": "106c69007c3f",
+      "bytes": 86978
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How do I create a one-click CSAT? | Klick-Zen</title>
+<link rel="icon" href="../../framework/assets/favicon.ico">
+<link rel="stylesheet" href="../../framework/engine/player.css">
+<link rel="stylesheet" href="../../framework/kit/klickzen.css">
+<style>
+  /* One-click CSAT: custom scenes (cs- prefix). Sized for the 1280x720 stage. */
+  .cs-scene { background: #f6f8f8; }
+  .cs-h { position: absolute; left: 0; right: 0; top: 56px; text-align: center; margin: 0; font: 800 34px/1.1 Montserrat, sans-serif; color: #07363f; letter-spacing: -.01em; }
+  .cs-sub { position: absolute; left: 0; right: 0; top: 104px; text-align: center; margin: 0; font-size: 17px; color: #5b6c72; }
+  .cs-btn { display: inline-block; font: 700 16px/1 Arial, sans-serif; padding: 10px 22px; border: 2px solid #5a5a5a; border-radius: 17px; color: #fff; white-space: nowrap; }
+  .cs-tagpill { display: inline-block; font: 600 12.5px/1 Consolas, monospace; color: #1f5f99; background: #e8f2fb; border: 1px solid #c4dcf2; border-radius: 99px; padding: 5px 10px; }
+
+  /* scales */
+  #cs-scales-h { top: 96px; }
+  #cs-scales-sub { top: 144px; }
+  .cs-panels { position: absolute; left: 90px; right: 90px; top: 210px; display: flex; gap: 40px; align-items: flex-start; }
+  .cs-panel { flex: 1; background: #fff; border: 1px solid #e3e8e9; border-radius: 14px; padding: 24px 28px 26px; box-shadow: 0 10px 30px rgba(0,0,0,.06); transition: opacity .5s, transform .5s; }
+  .cs-panel h4 { margin: 0 0 4px; font: 700 20px/1.2 Montserrat, sans-serif; color: #1d2b30; }
+  .cs-panel p { margin: 0 0 18px; font-size: 14px; color: #68737d; }
+  .cs-opt { display: flex; align-items: center; justify-content: space-between; padding: 9px 0; border-top: 1px solid #eef1f2; }
+  .cs-opt:first-of-type { border-top: 0; }
+  #cs-granular { opacity: 0; transform: translateY(14px); }
+  #cs-granular.cs-on { opacity: 1; transform: none; }
+  #cs-granular .cs-btn { font-size: 14px; padding: 8px 18px; min-width: 128px; text-align: center; }
+
+  /* title card: the second rating button beside the kit's */
+  .cs-demo-bad { display: inline-block; font: 700 18px/1 Arial, sans-serif; padding: 11px 26px; border: 2px solid #5a5a5a; border-radius: 18px; background: #1f2a37; color: #fff; margin-left: 12px; }
+
+  /* inbox: the second rating button beside the kit's */
+  .cs-mail-bad { display: inline-block; font: 700 18px/1 Arial, sans-serif; padding: 11px 30px; border: 2px solid #5a5a5a; border-radius: 17px; background: #1f2a37; color: #fff; margin-left: 14px; }
+
+  /* ticket: rating chips added after the click */
+  .cs-newtag { display: none; background: #fff3d6; border: 1px solid #f3d38b; color: #6b4a07; border-radius: 99px; padding: 3px 10px; font-size: 13px; animation: rowin .45s ease; }
+  .cs-rated .cs-newtag { display: inline-block; }
+  .cs-in { height: 36px; border: 1px solid #c2c8cc; border-radius: 4px; display: flex; align-items: center; padding: 0 12px; font-size: 13px; color: #87929d; background: #fff; transition: background-color .5s, border-color .5s; }
+  .cs-rated .cs-in { color: #6b4a07; background: #fff3d6; border-color: #f3d38b; font-weight: 600; }
+
+  /* close the loop */
+  .cs-flow { position: absolute; left: 80px; right: 80px; top: 165px; display: flex; align-items: center; gap: 26px; }
+  .cs-click { width: 300px; flex: none; background: #fff; border: 1px solid #e3e8e9; border-radius: 14px; padding: 24px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+  .cs-click small { display: block; font-size: 13px; color: #68737d; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
+  .cs-click .cs-tagpill { margin-top: 16px; background: #fff3d6; border-color: #f3d38b; color: #6b4a07; opacity: 0; transition: opacity .4s; }
+  .cs-click.cs-on .cs-tagpill { opacity: 1; }
+  .cs-arrow { flex: none; width: 60px; height: 4px; background: #c9d3d6; position: relative; border-radius: 2px; transition: background .4s; }
+  .cs-arrow::after { content: ""; position: absolute; right: -4px; top: -6px; border: 8px solid transparent; border-left: 12px solid #c9d3d6; border-right: 0; transition: border-color .4s; }
+  .cs-arrow.cs-on { background: #e8a61b; }
+  .cs-arrow.cs-on::after { border-left-color: #e8a61b; }
+  .cs-trig { flex: 1; background: #fff; border: 1px solid #d8dcde; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+  .cs-trig-head { background: #03363d; color: #fff; padding: 14px 20px; font-size: 15px; font-weight: 600; display: flex; gap: 10px; align-items: center; }
+  .cs-trig-head span { font-weight: 400; color: #9fb4b7; font-size: 13px; }
+  .cs-trig-body { padding: 16px 20px 18px; }
+  .cs-trig-body h5 { margin: 0 0 8px; font-size: 13px; color: #2f3941; }
+  .cs-cond { display: flex; gap: 8px; margin-bottom: 18px; }
+  .cs-cond div { border: 1px solid #c2c8cc; border-radius: 4px; padding: 9px 12px; font-size: 13px; color: #2f3941; }
+  .cs-act { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid #e9ebed; border-radius: 6px; margin-bottom: 8px; font-size: 14px; color: #2f3941; opacity: 0; transform: translateX(-10px); transition: opacity .4s, transform .4s; }
+  .cs-act.cs-on { opacity: 1; transform: none; }
+  .cs-act i { width: 26px; height: 26px; border-radius: 50%; background: #edf7ff; color: #1f73b7; display: grid; place-items: center; font-style: normal; font-weight: 700; font-size: 13px; flex: none; }
+  .cs-act b { font-weight: 600; }
+  .cs-banner { position: absolute; left: 50%; top: 600px; transform: translate(-50%, 10px); opacity: 0; background: #07363f; color: #fff; padding: 14px 28px; border-radius: 99px; font: 700 18px/1 Montserrat, sans-serif; transition: opacity .5s, transform .5s; white-space: nowrap; }
+  .cs-banner em { font-style: normal; color: #e8a61b; }
+  .cs-banner.cs-on { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+<div id="player"></div>
+<script src="../../framework/engine/player.js"></script>
+<script src="../../framework/kit/klickzen.js"></script>
+<script src="walkthrough.js"></script>
+</body>
+</html>

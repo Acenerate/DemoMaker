@@ -1,0 +1,217 @@
+1
+00:00:00,139 --> 00:00:04,330
+When a customer clicks a Klick-Zen button
+in your email, what do they see next?
+
+2
+00:00:04,410 --> 00:00:09,139
+A landing page. In the next few minutes,
+we'll make it look and sound like your
+
+3
+00:00:09,139 --> 00:00:11,115
+brand, with no web design needed.
+
+4
+00:00:11,195 --> 00:00:15,558
+Clicking any link in an email opens a web
+browser, and Klick-Zen buttons are no
+
+5
+00:00:15,558 --> 00:00:19,258
+different. That visit is what tells
+Klick-Zen to update the ticket.
+
+6
+00:00:19,338 --> 00:00:23,845
+The landing page is what your customer
+sees next: clear confirmation that their
+
+7
+00:00:23,845 --> 00:00:26,640
+click worked, instead of a blank tab or an
+error.
+
+8
+00:00:26,720 --> 00:00:31,306
+Klick-Zen hosts it for you, and it reads
+clearly on phones and desktops alike.
+
+9
+00:00:31,306 --> 00:00:33,776
+There's nothing to build or host yourself.
+
+10
+00:00:33,856 --> 00:00:38,560
+To make it yours, open Klick-Zen in
+Zendesk, and click Default Landing Page in
+
+11
+00:00:38,560 --> 00:00:39,706
+the left-hand menu.
+
+12
+00:00:39,786 --> 00:00:44,731
+There are two pages here, a Confirmation
+page and a Ticket Closed page, and one set
+
+13
+00:00:44,731 --> 00:00:47,174
+of global settings that styles them both.
+
+14
+00:00:47,254 --> 00:00:51,710
+Start with the Global Landing Page
+Settings. The HTML Browser Title is the
+
+15
+00:00:51,710 --> 00:00:54,781
+text in the browser tab, usually your
+company name.
+
+16
+00:00:54,861 --> 00:01:00,058
+Next, the Template Colors. The Brand Color
+draws the bold outlines, so it's usually
+
+17
+00:01:00,058 --> 00:01:01,686
+the darker of your colors.
+
+18
+00:01:01,766 --> 00:01:06,857
+The Accent Color sits behind the text, and
+the Text Color is the text itself. Choose
+
+19
+00:01:06,857 --> 00:01:08,493
+a pair that's easy to read.
+
+20
+00:01:08,573 --> 00:01:15,113
+Then the Page Header Image, usually your
+logo. Click Select new image, and choose a
+
+21
+00:01:15,113 --> 00:01:17,792
+JPG, GIF or PNG up to 3 megabytes.
+
+22
+00:01:17,872 --> 00:01:21,821
+Now the Confirmation page. It's shown
+while the ticket is still active, to let
+
+23
+00:01:21,821 --> 00:01:24,201
+your customer know their response went
+through.
+
+24
+00:01:24,281 --> 00:01:28,754
+Type your message on the left using simple
+markdown, and the preview on the right
+
+25
+00:01:28,754 --> 00:01:30,024
+shows how it will look.
+
+26
+00:01:30,104 --> 00:01:34,909
+The toolbar adds common formatting for
+you, such as bold text or a bulleted list.
+
+27
+00:01:34,989 --> 00:01:40,761
+For security, active content like HTML,
+JavaScript and CSS is never rendered, so
+
+28
+00:01:40,761 --> 00:01:43,575
+the page stays safe for every customer.
+
+29
+00:01:43,655 --> 00:01:47,816
+The Ticket Closed page appears when the
+ticket is no longer active, for example
+
+30
+00:01:47,816 --> 00:01:49,976
+when it's already been solved and closed.
+
+31
+00:01:50,056 --> 00:01:54,624
+It lets your customer know their click
+can't change anything now, so a helpful
+
+32
+00:01:54,624 --> 00:01:56,440
+next step here goes a long way.
+
+33
+00:01:56,520 --> 00:02:01,273
+The Preview this page button stays greyed
+out until your changes are saved. So click
+
+34
+00:02:01,273 --> 00:02:03,197
+Update, at the bottom of the page.
+
+35
+00:02:03,277 --> 00:02:08,421
+Now click Preview this page, and see the
+finished page exactly as your customers
+
+36
+00:02:08,421 --> 00:02:08,743
+will.
+
+37
+00:02:08,823 --> 00:02:11,316
+So when your customer clicks a button in
+your email,
+
+38
+00:02:11,396 --> 00:02:16,219
+they land on a page with your logo, your
+colors and your words, in a browser tab
+
+39
+00:02:16,219 --> 00:02:17,726
+with your company's name.
+
+40
+00:02:17,806 --> 00:02:21,996
+And if they click a button on a ticket
+that's already closed, your Ticket Closed
+
+41
+00:02:21,996 --> 00:02:23,672
+page tells them what to do next.
+
+42
+00:02:23,752 --> 00:02:28,950
+That's landing pages: a clear, friendly
+answer to every click, in your own brand,
+
+43
+00:02:28,950 --> 00:02:30,297
+with nothing to host.
+
+44
+00:02:30,377 --> 00:02:34,663
+Want to go further? Use your own
+subdomain, or send customers to a page of
+
+45
+00:02:34,663 --> 00:02:39,007
+your own, such as a help article or a
+survey, for every button or just one.
+
+46
+00:02:39,087 --> 00:02:44,052
+Find Klick-Zen on the Zendesk Marketplace,
+and make every click feel like part of
+
+47
+00:02:44,052 --> 00:02:44,726
+your brand.

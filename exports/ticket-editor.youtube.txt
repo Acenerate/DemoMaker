@@ -1,0 +1,16 @@
+TITLE
+Using Buttons in the Ticket Editor
+
+DESCRIPTION
+An animated walkthrough, about one minute. Watch an agent drop one-click buttons into a Zendesk reply.
+
+One click, right from the reply. Ready to try it with your own customers?
+Get Klick-Zen on the Zendesk Marketplace: https://www.zendesk.com/marketplace/apps/support/1097296/klick-zen-action-buttons/
+
+Chapters:
+0:00 Introduction & Insert a button
+0:29 Step 2: Offer a choice
+0:43 Next steps
+
+CAPTIONS
+Upload ticket-editor.srt in YouTube Studio under Subtitles (language: English).
