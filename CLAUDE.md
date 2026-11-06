@@ -17,9 +17,8 @@ email buttons), for potential customers. Plain HTML/CSS/JS, no build step, no de
 - **The Klick-Zen docs are the source of truth** for what a feature does, its steps, its settings and
   their exact labels. Read them with `node tools/read-docs.js`: with no arguments it lists every page
   (path and title); with page paths (`node tools/read-docs.js landing-pages/overview`) it prints their
-  text. It reads the live docs site set in `config.json` and falls back to the offline copy in `site/`
-  (which may be out of date) only when the site can't be reached; it says so when that happens.
-  Don't read `site/` directly.
+  text. It reads the docs site set in `config.json`. If the site can't be reached it reports an error;
+  stop and say so rather than writing from memory.
 - `tools/`: command-line tools. `tools/admin/` is the local admin web app.
 
 ## Making a new walkthrough

@@ -874,9 +874,7 @@
       if (!C.docs) { try { C.docs = await api('docs'); } catch (e) { return fail(e); } }
       const groups = {};
       C.docs.pages.forEach(d => { (groups[d.section] = groups[d.section] || []).push(d); });
-      $('#c-docs-src').innerHTML = C.docs.source === 'live'
-        ? `${C.docs.pages.length} pages from the live docs at <code>${esc(C.docs.base)}</code>.`
-        : `<b>The live docs site couldn't be reached</b> (${esc(C.docs.liveError || 'no docsUrl in config.json')}), so these are from the offline copy, which may be out of date.`;
+      $('#c-docs-src').innerHTML = `${C.docs.pages.length} pages from the docs at <code>${esc(C.docs.base)}</code>.`;
       form.doc.innerHTML = '<option value="">Choose a page…</option>' + Object.entries(groups).map(([g, list]) =>
         `<optgroup label="${esc(g)}">${list.map(d => `<option value="${esc(d.path)}">${esc(d.title)}</option>`).join('')}</optgroup>`).join('');
       form.doc.focus();

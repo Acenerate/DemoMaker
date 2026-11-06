@@ -2,28 +2,6 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "receiver",
-      "runtimeExecutable": "python",
-      "runtimeArgs": [
-        "-I",
-        "tools/receiver.py",
-        "8765",
-        "captured"
-      ],
-      "port": 8765
-    },
-    {
-      "name": "site",
-      "runtimeExecutable": "python",
-      "runtimeArgs": [
-        "-I",
-        "tools/serve.py",
-        "8780",
-        "site"
-      ],
-      "port": 8780
-    },
-    {
       "name": "walkthroughs",
       "runtimeExecutable": "python",
       "runtimeArgs": [

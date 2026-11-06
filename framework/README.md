@@ -68,13 +68,13 @@ Walkthroughs are built from the Klick-Zen docs. `config.json` in the project fol
 are:
 
 ```json
-{ "docsUrl": "http://docs.klick-zen.com.localhost/" }
+{ "docsUrl": "https://docs.klick-zen.com/" }
 ```
 
-Change it to `https://docs.klick-zen.com/` once the new site is published. `node tools/read-docs.js`
+To build from docs that aren't published yet, point it at your local preview of the docs repo for a
+while (for example `http://docs.klick-zen.com.localhost/`), then change it back. `node tools/read-docs.js`
 lists every page (from the site's `sitemap.xml`), and `node tools/read-docs.js landing-pages/overview`
-prints a page's text. Claude uses it to read the docs. If the site can't be reached, it falls back to
-the offline copy in `site/` and says so, since that copy may be out of date.
+prints a page's text. Claude uses it to read the docs. If the site can't be reached, it reports an error.
 
 ## Making a new walkthrough
 

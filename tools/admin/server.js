@@ -208,7 +208,7 @@ function createWalkthrough(name, title) {
   }
 }
 
-// The docs pages for the Ask Claude panel's page picker: live docs site, or the offline copy.
+// The docs pages for the Ask Claude panel's page picker, from the docs site.
 let docsCache = null;
 async function docsPages() {
   if (docsCache && Date.now() - docsCache.at < 60000) return docsCache.data;
